@@ -1,5 +1,3 @@
-######틀렸습니당~~~~!!!!!!!!
-
 import sys
 
 t = int(sys.stdin.readline())
