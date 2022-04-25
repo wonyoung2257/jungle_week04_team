@@ -1,4 +1,5 @@
 # 소스: https://pacific-ocean.tistory.com/437
+# https://www.youtube.com/watch?v=5MXOUix_Ud4&t=1523s
 
 import sys
 input = sys.stdin.readline

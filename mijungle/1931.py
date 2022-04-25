@@ -11,7 +11,7 @@ for i in range(N):
     time[i][0] = s
     time[i][1] = e
 
-time.sort(key = lambda x:(x[1],x[0]))
+time.sort(key = lambda x:(x[1],x[0])) #이른 시간대에 끝나는 거 위주로
 
 cnt = 1
 end_time = time[0][1]
