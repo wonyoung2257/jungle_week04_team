@@ -1,9 +1,13 @@
+##### 미완성~~~~
+##인덱스 값을 탑 번호로 다 짰는데 sort()를 해줘서 인덱스가 엉망됨
+# 인덱스 값도 정보 배열에 따로 저장하면 답은 나올거같은데 몰겠다요 
+
 import sys
 
 n = int(sys.stdin.readline())
-a2 = [list(map(int,sys.stdin.readline().split())) for _ in range(n)] # 밑면넓이, 높이, 무게
+a = [list(map(int,sys.stdin.readline().split())) for _ in range(n)] # 밑면넓이, 높이, 무게
 
-a = sorted(a2,reverse=True)
+a.sort(reverse=True)
 result = [0] * (n+1)
 hight = [0] * (n+1)
 for i in range(n) :
